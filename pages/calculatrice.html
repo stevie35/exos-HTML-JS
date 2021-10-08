@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/calculatrice.css">
+    <script src="../scripts/calculatrice.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <!-- <div id="en-tete"> -->
+            <a href="../index.html">Menu</a>
+            <a href="./manegeImages.html">Manège d'images</a>
+            <a href="./calculatrice.html">Calculatrice</a>
+            <a href="">Le juste Prix</a>
+            <a href="">Morpion</a>
+        <!-- </div> -->
+    </header>
+    <div id="boutonCalcAll">
+        <div class="boutonCalc">
+            <button nombre id="sept" onclick="ajouterAuCalcul(7)">7</button>
+            <button nombre id="huit" onclick="ajouterAuCalcul(8)">8</button>
+            <button nombre id="neuf" onclick="ajouterAuCalcul(9)">9</button>
+        </div>
+        <div class="boutonCalc">
+            <button nombre id="quatre" onclick="ajouterAuCalcul(4)">4</button>
+            <button nombre id="cinq" onclick="ajouterAuCalcul(5)">5</button>
+            <button nombre id="six" onclick="ajouterAuCalcul(6)">6</button>
+        </div>
+        <div class="boutonCalc">
+            <button nombre id="un" onclick="ajouterAuCalcul(1)">1</button>
+            <button nombre id="deux" onclick="ajouterAuCalcul(2)">2</button>
+            <button nombre id="trois" onclick="ajouterAuCalcul(3)">3</button>
+        </div>
+        <div class="boutonOp">
+            <button id="plus" onclick="ajouterAuCalcul('+')">+</button> 
+            <button id="moins" onclick="ajouterAuCalcul('-')">-</button> 
+            <button id="fois" onclick="ajouterAuCalcul('*')">x</button>
+            <button id="diviseur" onclick="ajouterAuCalcul('/')">/</button> 
+        </div>
+        <div class="output">
+            <p id="stringCalcul"></p>
+            <button id="egal" onclick="calculer()">=</button>
+        </div>
+    </div>
+</body>
+
+</html>

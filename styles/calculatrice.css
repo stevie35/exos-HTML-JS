@@ -1,0 +1,29 @@
+#boutonCalcAll {
+    /* display: flex; */
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.boutonCalc > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid black;
+    outline: none;
+    background-color: rgba(31, 218, 77, 0.75);
+}
+
+.boutonOp > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid black;
+    outline: none;
+    background-color: rgba(194, 75, 130, 0.75);
+}
+
+.boutonCalc > button:hover {
+    background-color: rgba(255,255,255,0.9);
+}
+
+.boutonOp > button:hover {
+    background-color: rgba(255,255,255,0.9);
+}
