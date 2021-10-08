@@ -3,12 +3,14 @@ let calcul = ""
 function ajouterAuCalcul(caractere) {
     calcul += caractere;
     console.log(calcul)
-    //return calcul
+    document.getElementById("stringCalcul").innerHTML = calcul;
 }
 
-// function calculer() {
-//     console.log(eval(ajouterAuCalcul))
-// }
+function calculer() {
+    let affiche = document.getElementById("stringCalcul").innerHTML
+    console.log(eval(affiche))
+    document.getElementById("stringCalcul").innerHTML = eval(affiche)
+}
 
 
 
